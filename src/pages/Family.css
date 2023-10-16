@@ -1,0 +1,44 @@
+.family-container {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.issue-container {
+    width: 60vw;
+}
+
+.issue-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    text-align: start;
+}
+
+
+.issue-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.issue-list li , .issue-list p{
+    margin: 1rem 0;
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.caps {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .issue-container {
+        width: 90vw;
+    }
+    .issue-heading {
+        font-size: 40px;
+        font-weight: 400;
+    }
+}
