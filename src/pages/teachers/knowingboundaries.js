@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function knowingboundaries() {
+export default function Knowingboundaries() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Knowing boundaries</h1>

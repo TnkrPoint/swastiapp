@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function respect() {
+export default function Respect() {
   return (
             <div className = 'issue-container' >
                 <h1 className='issue-heading'>Mutual respect between students and teachers</h1>

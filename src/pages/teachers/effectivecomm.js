@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function effectivecomm() {
+export default function Effectivecomm() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Effective Communication between teachers and students</h1>

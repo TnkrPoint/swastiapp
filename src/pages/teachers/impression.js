@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function impression() {
+export default function Impression() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Impression making/ changing</h1>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function acceptingresponsibility() {
+export default function Acceptingresponsibility() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Understanding and accepting responsibility as a student</h1>

@@ -24,6 +24,15 @@ import Discrimination from './pages/soceity/discrimination';
 import Antisocial from './pages/soceity/antisocial';
 import Expectations from './pages/soceity/expectations';
 import Socialnorms from './pages/soceity/socialnorms';
+import Expressingwithpeer from './pages/Peers/Expressingwithpeer';
+import RumorsandDerogatory from './pages/Peers/RumorsandDerogatory';
+import SocialMedia from './pages/Peers/SocialMedia';
+import Friendshipissues from './pages/Peers/friendshipissues';
+import Acceptingresponsibility from './pages/teachers/acceptingresponsibility';
+import Effectivecomm from './pages/teachers/effectivecomm';
+import Impression from './pages/teachers/impression';
+import Knowingboundaries from './pages/teachers/knowingboundaries';
+import Respect from './pages/teachers/respect';
 
 
 function App() {
@@ -43,17 +52,29 @@ function App() {
             <Route path='/family/mutualunderstanding' exact element={<MutualUnderstanding />} />
             <Route path='/family/pressure' exact element={<Pressure />} />
 
-
             <Route path="/peers" exact element={<Peer />} />
-            <Route path="/school" exact element={<Teachers />} />
+            <Route path="/peers/expressing" exact element={<Expressingwithpeer />} />
+            <Route path="/peers/rumors" exact element={<RumorsandDerogatory />} />
+            <Route path="/peers/socialmedia" exact element={<SocialMedia />} />
+            <Route path="/peers/frindshipissues" exact element={<Friendshipissues />} />
 
-            
+            <Route path="/school" exact element={<Teachers />} />
+            <Route path="/school/acceptingresponsibility" exact element={<Acceptingresponsibility />} />
+            <Route path="/school/effectivecomm" exact element={<Effectivecomm />} />
+            <Route path="/school/impression" exact element={<Impression />} />
+            <Route path="/school/knowingboundaries" exact element={<Knowingboundaries/>} />
+            <Route path="/school/respect" exact element={<Respect />} />
+
+
+
+
+
+
             <Route path="/society" exact element={<Society />} />
             <Route path="/society/discrimination" exact element={<Discrimination />} />
             <Route path="/society/antisocial" exact element={<Antisocial />} />
             <Route path="/society/expectations" exact element={<Expectations />} />
             <Route path="/society/socialnorms" exact element={<Socialnorms />} />
-
 
             <Route path="/self" exact element={<Self />} />
             <Route path='/self/selfconfidence' exact element={<SelfConfidence />} />
