@@ -11,7 +11,7 @@ export default function Family() {
                     <br />Here are some suggestions on how to address this issue</p>
             </div>
             <div className='issue-container'>
-                <h1 className='issue-heading'>Not spending time with each other</h1>
+                <h1 className='issue-heading'>Not having healthy family time</h1>
                 <ul className='issue-list'>
                     <li><span className='caps'>Schedule Family Time:</span> Set aside specific times in your week or month for family activities. This can be as simple as a weekly family dinner or a monthly outing. Consistently scheduling family time helps ensure you spend quality moments together.
                     </li>
@@ -38,7 +38,7 @@ export default function Family() {
                 </ul>
             </div>
             <div className='issue-container'>
-                <h1 className='issue-heading'>Having differences on priorities</h1>
+                <h1 className='issue-heading'>Having difficulties in setting right priorities</h1>
                 <ul className='issue-list'>
                     <li><span className='caps'>Be Flexible- </span>Recognize that priorities can change over time. What is a top priority for someone today may not be the same in the future. Be flexible and open to reevaluating priorities as circumstances change.
                     </li>
@@ -49,7 +49,7 @@ export default function Family() {
                 </ul>
             </div>
             <div className='issue-container'>
-                <h1 className='issue-heading'>Academic vs co-curricular</h1>
+                <h1 className='issue-heading'>Balance between Academic and co-curricular</h1>
                 <ul className='issue-list'>
                     <li><span className='caps'>Prioritize and Set Goals:</span> Set clear academic and co-curricular goals to allocate time and resources appropriately.</li>
                     <li><span className='caps'>Create a Weekly Schedule:</span> Develop a weekly schedule that includes time for classes, homework, and co-curricular activities, while also making room for self-care and socializing.</li>
