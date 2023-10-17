@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function discrimination() {
+export default function Discrimination() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Societal expectations and stereotypes</h1>

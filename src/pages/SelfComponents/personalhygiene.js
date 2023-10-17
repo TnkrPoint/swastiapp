@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function personalhygiene() {
+export default function Personalhygiene() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Personal Hygiene</h1>

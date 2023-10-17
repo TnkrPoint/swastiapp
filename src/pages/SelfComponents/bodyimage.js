@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function bodyimage() {
+export default function BodyImage() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Body image issues</h1>

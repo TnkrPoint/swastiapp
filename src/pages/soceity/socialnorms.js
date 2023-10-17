@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function socialnorms() {
+export default function Socialnorms() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Complying to societal norms</h1>

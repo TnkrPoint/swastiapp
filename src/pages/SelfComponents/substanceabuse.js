@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function substanceabuse() {
+export default function Substanceabuse() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Substance Abuse</h1>

@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+* {
+    font-family: "Outfit", sans-serif;
+}
+
 .heading-container {
     display: flex;
     flex-direction: column;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function attitude() {
+export default function Attitude() {
   return (
         <div className='issue-container'>
             <h1 className='issue-heading'>Attitude</h1>

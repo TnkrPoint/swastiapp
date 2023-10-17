@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function selfconfidence() {
+export default function SelfConfidence() {
   return (
       <div className='issue-container'>
           <h1 className='issue-heading'>Self confidence and self compassion</h1>

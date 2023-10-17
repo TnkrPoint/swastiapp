@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function identityinformation() {
+export default function Identityinformation() {
   return (
     <div className='issue-container'>
         <h1 className='issue-heading'>Identity formation</h1>
