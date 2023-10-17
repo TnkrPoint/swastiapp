@@ -65,11 +65,6 @@ function App() {
             <Route path="/school/knowingboundaries" exact element={<Knowingboundaries/>} />
             <Route path="/school/respect" exact element={<Respect />} />
 
-
-
-
-
-
             <Route path="/society" exact element={<Society />} />
             <Route path="/society/discrimination" exact element={<Discrimination />} />
             <Route path="/society/antisocial" exact element={<Antisocial />} />
@@ -82,6 +77,7 @@ function App() {
             <Route path='/self/substanceabuse' exact element={<Substanceabuse />} />
             <Route path='/self/attitude' exact element={<Attitude />} />
             <Route path='/self/body' exact element={<BodyImage />} />
+            <Route path='/self/identity' exact element={<Identityinformation />} />
           </Routes>
         </div>
       </Router>

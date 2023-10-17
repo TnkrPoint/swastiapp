@@ -6,7 +6,7 @@ export default function Home() {
         <div className='landing-container'>
             <div className='heading-container'>
                 <h1 className='landing-heading'>What Brings You Here Today?</h1>
-                <p className='landing-heading-content'>If you or someone you know is struggling, you are not alone. Below is information on how to find support.</p>
+                <p className='landing-heading-content'>If you wish to strengthen  relationship with your self,peers, family, teachers and Community and address any concern, explore the app and find solutions.</p>
             </div>
             <div className='learn-grid'>
                 <div className="learn-blob" onClick={()=>{window.location.href= "/family"}}>
