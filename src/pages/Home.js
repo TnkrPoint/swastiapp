@@ -70,22 +70,6 @@ export default function Home() {
                     </a>
                 </div>
             </div>
-            <div className='finding-support'>
-                <h1 className='finding-support-heading'>Finding support</h1>
-                <p className='finding-support-desc'>If you or someone you know needs support, there is help.<br />You are not alone. Below you can find information and<br /> resources on how to get help.</p>
-                <div className='finding-support-options'>
-                    <div className='option '>
-                        <h1 className='option-heading'>Aasra</h1>
-                        <button className='option-website' onClick={() => { window.location.href = 'http://www.aasra.info/' }}>Visit Website</button>
-                        <p className='option-desc'>24 x 7 Hotline - +919820466726</p>
-                    </div>
-                    <div className='option'>
-                        <h1 className='option-heading'>Sneha Suicide Prevention Centre</h1>
-                        <button className='option-website' onClick={() => { window.location.href = "https://snehaindia.org/new/" }}>Visit Website</button>
-                        <p className='option-desc'>24 x 7 Hotline - +91-44-24640050</p>
-                    </div>
-                </div>
-            </div>
         </div>
     )
 }
