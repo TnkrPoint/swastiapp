@@ -6,10 +6,10 @@ export default function Home() {
         <div className='landing-container'>
             <div className='heading-container'>
                 <h1 className='landing-heading'>What Brings You Here Today?</h1>
-                <p className='landing-heading-content'>If you wish to strengthen  relationship with your self,peers, family, teachers and Community and address any concern, explore the app and find solutions.</p>
+                <p className='landing-heading-content'>If you wish to strengthen relationship with your self, peers, family, teachers and Community<br /> and address any concern, explore the app and find solutions.</p>
             </div>
             <div className='learn-grid'>
-                <div className="learn-blob" onClick={()=>{window.location.href= "/family"}}>
+                <div className="learn-blob" onClick={() => { window.location.href = "/family" }}>
                     <div className="learn-header">
                         <img src="https://static.vecteezy.com/system/resources/previews/009/346/314/original/family-icon-vector-illustration-on-the-white-background-free-png.png" alt="" />
                         <h2 className="learn-field">

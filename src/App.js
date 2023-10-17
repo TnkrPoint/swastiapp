@@ -59,11 +59,11 @@ function App() {
             <Route path="/peers/frindshipissues" exact element={<Friendshipissues />} />
 
             <Route path="/school" exact element={<Teachers />} />
-            <Route path="/school/acceptingresponsibility" exact element={<Acceptingresponsibility />} />
-            <Route path="/school/effectivecomm" exact element={<Effectivecomm />} />
-            <Route path="/school/impression" exact element={<Impression />} />
-            <Route path="/school/knowingboundaries" exact element={<Knowingboundaries/>} />
-            <Route path="/school/respect" exact element={<Respect />} />
+            <Route path="/teachers/acceptingresponsibility" exact element={<Acceptingresponsibility />} />
+            <Route path="/teachers/effectivecomm" exact element={<Effectivecomm />} />
+            <Route path="/teachers/impression" exact element={<Impression />} />
+            <Route path="/teachers/knowingboundaries" exact element={<Knowingboundaries/>} />
+            <Route path="/teachers/respect" exact element={<Respect />} />
 
             <Route path="/society" exact element={<Society />} />
             <Route path="/society/discrimination" exact element={<Discrimination />} />
