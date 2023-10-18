@@ -15,7 +15,7 @@ export default function Peer() {
                     <div className="learn-header">
                         <img src="https://static.vecteezy.com/system/resources/previews/009/346/314/original/family-icon-vector-illustration-on-the-white-background-free-png.png" alt="" />
                         <h2 className="learn-field">
-                            Rumours/derogatory comments and judgements
+                            Issues related to expressing/communicating with peers
                         </h2>
                     </div>
                     <p>
@@ -41,7 +41,7 @@ export default function Peer() {
                     <div className="learn-header">
                         <img src="https://static.thenounproject.com/png/4200422-200.png" alt="" />
                         <h2 className="learn-field">
-                            Social media handling and Cyber security
+                            Social media and Cyber security
                         </h2>
                     </div>
                     <p>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function SocialMedia() {
   return (
       <div className='issue-container'>
-          <h1 className='issue-heading'>Social media handling and Cyber security</h1>
+          <h1 className='issue-heading'>Social media and Cyber security</h1>
           <ul className='issue-list'>
               <li><span className='caps'>Set Time Limits: </span>Allocate specific time slots for social media use to prevent it from becoming overwhelming or interfering with other aspects of your life.</li>
               <li><span className='caps'>Curate Your Feed: </span>Follow accounts and pages that share content that genuinely interests you and brings positivity to your life. Unfollow or mute accounts that consistently share negative or distressing content.</li>
