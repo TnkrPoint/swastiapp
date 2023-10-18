@@ -81,7 +81,33 @@ export default function Self() {
           <a href="/self/attitude" target="_blank">Know More &nbsp;&nbsp;<i className="fa fa-arrow-right" style={{ paddingTop: '10px' }}></i>
           </a>
         </div>
+        <div className="learn-blob" onClick={() => { window.location.href = "/family/cocurricular" }}>
+          <div className="learn-header">
+            <img src="https://static.thenounproject.com/png/2515478-200.png" alt="" />
+            <h2 className="learn-field">
+              Balance between Academic and co-curricular
+            </h2>
+          </div>
+          <p>
+            Set clear academic and co-curricular goals to allocate time and resources appropriately... </p>
+          <a href="/family/cocurricular" target="_blank">Know More &nbsp;&nbsp;<i className="fa fa-arrow-right" style={{ paddingTop: '10px' }}></i>
+          </a>
+        </div>
+        <div className="learn-blob" onClick={() => { window.location.href = "/family/pressure" }}>
+          <div className="learn-header">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUkaJ6WZWE0wchtU7b12Nu4LWUeq4BPlkAwHFvb_A&s" alt="" />
+            <h2 className="learn-field">
+              Pressure for choosing streams for high school
+            </h2>
+          </div>
+          <p>
+            A counselling session will help to identify your strength and can help you to choose... </p>
+          <a href="/family/pressure" target="_blank">Know More &nbsp;&nbsp;<i className="fa fa-arrow-right" style={{ paddingTop: '10px' }}></i>
+          </a>
+        </div>
+
       </div>
+
 
     </div>
   )
